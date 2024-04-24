@@ -43,11 +43,11 @@ public class PlayerMovementController : MonoBehaviour
     private void Flip()
     {
         // move left or right
-        if (!_spriteRender.flipX && _moveInput.x > 0)
+        if (!_spriteRender.flipX && _moveInput.x < 0)
         {
             _spriteRender.flipX = true;
         }
-        else if (_spriteRender.flipX && _moveInput.x < 0)
+        else if (_spriteRender.flipX && _moveInput.x > 0)
         {
             _spriteRender.flipX = false;
         }
