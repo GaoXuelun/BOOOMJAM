@@ -100,10 +100,10 @@ TextureImporter:
       name: microwave_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 20
-        width: 320
-        height: 280
+        x: 1
+        y: 2
+        width: 32
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8761f45809aa038459ac8f71a33dd924
-      internalID: 770034915
+      spriteID: fbd1de9760517ff469a23ddf8e67525e
+      internalID: -1189586925
       vertices: []
       indices: 
       edges: []
@@ -120,7 +120,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 26a256062ca78ff47a90b3f39ece42be
+    spriteID: 3e2e2dfb2f685b14b8f7287c1c16a022
     internalID: 0
     vertices: []
     indices: 
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      microwave_0: 770034915
+      microwave_0: -1189586925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

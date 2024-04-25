@@ -100,10 +100,10 @@ TextureImporter:
       name: bed_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 1
         y: 0
-        width: 660
-        height: 240
+        width: 68
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62b1a0a768edd7b44911eabb1243291e
-      internalID: 847325709
+      spriteID: 6be9392c03606134f9ea1cd483d7f9f0
+      internalID: 362083757
       vertices: []
       indices: 
       edges: []
@@ -120,7 +120,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c035ead0a49b4244ea961c8ec98d3370
+    spriteID: c7c6366c54bb4a146906d6283d3e1d32
     internalID: 0
     vertices: []
     indices: 
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bed_0: 847325709
+      bed_0: 362083757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

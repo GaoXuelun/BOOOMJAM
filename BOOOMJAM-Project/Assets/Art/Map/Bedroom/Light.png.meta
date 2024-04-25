@@ -100,61 +100,19 @@ TextureImporter:
       name: Light_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 20
-        width: 500
-        height: 540
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 7
+        y: 2
+        width: 50
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5127432, y: 0.50884944}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 675f6bff597aefb46ac9c3e5ac67c073
-      internalID: -1559453441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Light_1
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 260
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 224d3ed0356bc5e4b9f96337cc45646d
-      internalID: -108811334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Light_2
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 240
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0358e9f3da2e41c47b8b00c2e8edcd17
-      internalID: 1948570168
+      spriteID: 3b7d5d3b99fc64f4a99dc61172ce1709
+      internalID: 1546517787
       vertices: []
       indices: 
       edges: []
@@ -162,7 +120,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: cbd14665554746a4998ce337b4948ec3
+    spriteID: b963f9820f2da1e48987ff89551cdd4a
     internalID: 0
     vertices: []
     indices: 
@@ -170,9 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Light_0: -1559453441
-      Light_1: -108811334
-      Light_2: 1948570168
+      Light_0: 1546517787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
