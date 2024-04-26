@@ -5,23 +5,23 @@ using UnityEngine;
 public class PlayerMovementController : MonoBehaviour
 {
     [Header("Movement Setting")]
-    [SerializeField] private float _moveSpeed = 5.0f;
+    [SerializeField] private float moveSpeed = 5.0f;
 
-    private Rigidbody _rigidbody;
+    private Rigidbody rigidbody;
     //public LayerMask _onGround;
 
-    private Animator _anim;
-    private SpriteRenderer _spriteRender;
+    private Animator anim;
+    private SpriteRenderer spriteRender;
 
-    private Vector3 _moveInput;
-    private bool _moveBackward;
-    private bool _walk;
+    private Vector3 moveInput;
+    private bool moveBackward;
+    private bool walk;
 
     private void Start()
     {
-        _rigidbody = GetComponent<Rigidbody>();
-        _spriteRender = GetComponent<SpriteRenderer>();
-        _anim = GetComponent<Animator>();        
+        rigidbody = GetComponent<Rigidbody>();
+        spriteRender = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();        
     }
 
     private void Update()
@@ -34,22 +34,22 @@ public class PlayerMovementController : MonoBehaviour
     private void Walk()
     {
         // move
-        _moveInput.x = Input.GetAxis("Horizontal");
-        _moveInput.z = Input.GetAxis("Vertical");
-        _moveInput.Normalize();
-        _rigidbody.velocity = _moveInput * _moveSpeed;
+        moveInput.x = Input.GetAxis("Horizontal");
+        moveInput.z = Input.GetAxis("Vertical");
+        moveInput.Normalize();
+        rigidbody.velocity = moveInput * moveSpeed;
     }
 
     private void Flip()
     {
         // move left or right
-        if (!_spriteRender.flipX && _moveInput.x < 0)
+        if (!spriteRender.flipX && moveInput.x < 0)
         {
-            _spriteRender.flipX = true;
+            spriteRender.flipX = true;
         }
-        else if (_spriteRender.flipX && _moveInput.x > 0)
+        else if (spriteRender.flipX && moveInput.x > 0)
         {
-            _spriteRender.flipX = false;
+            spriteRender.flipX = false;
         }
     }
 
@@ -57,8 +57,8 @@ public class PlayerMovementController : MonoBehaviour
     {
         // walk
         //_anim.SetFloat("moveSpeed", _rigidbody.velocity.magnitude);
-        _walk = Mathf.Abs(_moveInput.x) > Mathf.Epsilon;
-        _anim.SetBool("walk", _walk);            
+        walk = Mathf.Abs(moveInput.x) > Mathf.Epsilon;
+        anim.SetBool("walk", walk);            
 
         // if (!_moveBackward && _moveInput.z > 0)
         // {
