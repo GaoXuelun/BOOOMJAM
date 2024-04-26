@@ -58,7 +58,7 @@ public class PlayerMovementController : MonoBehaviour
         // walk
         //_anim.SetFloat("moveSpeed", _rigidbody.velocity.magnitude);
         walk = Mathf.Abs(moveInput.x) > Mathf.Epsilon;
-        anim.SetBool("walk", walk);            
+        //anim.SetBool("walk", walk);            
 
         // if (!_moveBackward && _moveInput.z > 0)
         // {
