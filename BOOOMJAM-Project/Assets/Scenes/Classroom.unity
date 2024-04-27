@@ -514,6 +514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 197dd670a24565444903387077712d14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
 --- !u!1 &609575662
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 197dd670a24565444903387077712d14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
 --- !u!1 &645393886
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,6 +860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 197dd670a24565444903387077712d14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
 --- !u!1 &725001852
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,8 +947,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ed410f45fd9ee74eaeb1936f0ae3e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _containerGameObj: {fileID: 1843212186}
-  _playerInteract: {fileID: 911394218}
+  containerGameObj: {fileID: 1843212186}
+  playerInteract: {fileID: 911394218}
+  interactTextMeshProUGUI: {fileID: 1711108663}
 --- !u!1 &813817228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,6 +1326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 197dd670a24565444903387077712d14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
 --- !u!1 &1121163521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1509,6 +1514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 197dd670a24565444903387077712d14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
 --- !u!1 &1243243887
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,6 +2025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 197dd670a24565444903387077712d14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
 --- !u!1 &1927112660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,6 +2145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 197dd670a24565444903387077712d14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
