@@ -7,4 +7,5 @@ public interface Interactable
     void Interact();
     string GetInteractText();
     Transform GetTransform();
+
 }
