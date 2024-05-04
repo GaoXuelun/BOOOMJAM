@@ -70,6 +70,10 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerStay(Collider other)  // Trigger test
     {
-        Debug.Log(other.name);
+        // if (other.CompareTag("Interactable"))   
+        // {
+        //     Debug.Log("OnTriggerStay: " + other.name);
+
+        // }
     }
 }
