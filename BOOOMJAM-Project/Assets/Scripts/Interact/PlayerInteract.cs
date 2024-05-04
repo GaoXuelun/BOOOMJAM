@@ -12,8 +12,10 @@ public class PlayerInteract : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
+                //修改添加if检查是否有可交互的对象，并且对话框不活动时检查交互操作
         CheckInteractObj();
+        
     }
 
     private void CheckInteractObj()
