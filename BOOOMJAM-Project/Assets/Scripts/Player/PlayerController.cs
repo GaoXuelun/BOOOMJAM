@@ -65,7 +65,6 @@ public class PlayerController : MonoBehaviour
         // move left or right
         if (inputDirection.x < 0) spriteRender.flipX = true;;
         if (inputDirection.x > 0) spriteRender.flipX = false;
-<<<<<<< HEAD
     }
 
 
@@ -73,7 +72,4 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log(other.name);
     }
-=======
-    }   
->>>>>>> 5966b8b0f30ae9222c2c55427bea8e3a6a4e94f8
 }

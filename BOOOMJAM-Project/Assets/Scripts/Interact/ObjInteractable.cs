@@ -19,11 +19,7 @@ public class ObjInteractable : MonoBehaviour, Interactable
     public void Interact()
     {
         Debug.Log("Interact");
-<<<<<<< HEAD
         //ConversationManager.Instance.StartConversation(myConversation); //修改对话框
-=======
-        ConversationManager.Instance.StartConversation(myConversation); //修改对话框
->>>>>>> 5966b8b0f30ae9222c2c55427bea8e3a6a4e94f8
     }
 
     public string GetInteractText()
