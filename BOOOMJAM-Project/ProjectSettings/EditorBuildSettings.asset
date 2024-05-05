@@ -5,12 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Bedroom.unity
-    guid: 7f86206c7253af04496f0f9a114c52b6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Clubroom.unity
     guid: 99a2b56216f003a4f99002c8deb13afc
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: ad27d0fd0653ef0418c692d6eab9d3e1,
+      type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 10366514e6556304fb18e253f6df9ddf,
       type: 2}
