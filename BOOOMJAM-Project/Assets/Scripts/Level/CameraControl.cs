@@ -5,16 +5,37 @@ using Cinemachine;
 
 public class CameraControl : MonoBehaviour
 {
+    [Header("Event Listen")]
+    public VoidEventSO afterSceneLoadedEvent;
+
+
     private CinemachineConfiner confiner;
 
     private void Awake()
     {
         confiner = GetComponent<CinemachineConfiner>();
     }
-    private void Start()
+
+    private void OnEnable()
+    {
+        afterSceneLoadedEvent.OnEventRaised += OnAfterSceneLoadedEvent;
+    }
+
+    private void OnDisable()
+    {
+        afterSceneLoadedEvent.OnEventRaised -= OnAfterSceneLoadedEvent;
+    }
+
+    private void OnAfterSceneLoadedEvent()
     {
         GetNewCameraBounds();
     }
+
+    // private void Start()
+    // {
+    //     GetNewCameraBounds();
+    // }
+
     private void GetNewCameraBounds()
     {
         var obj = GameObject.FindGameObjectWithTag("Bounds");

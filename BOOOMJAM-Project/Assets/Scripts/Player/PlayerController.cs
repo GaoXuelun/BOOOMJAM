@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     private PlayerInputControls inputControl;
-    private Rigidbody rigidbody;
+    private Rigidbody rb;
     private SpriteRenderer spriteRender;
     private PhysicsCheck physicsCheck;
 
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         inputControl = new PlayerInputControls();
-        rigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
         spriteRender = GetComponent<SpriteRenderer>();
         physicsCheck = GetComponent<PhysicsCheck>(); 
         inputControl.Gameplay.Move.performed += ctx => inputDirection = ctx.ReadValue<Vector2>();//修改
@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        rigidbody.velocity = new Vector3(inputDirection.x * moveSpeed * Time.deltaTime, rigidbody.velocity.y, inputDirection.y * moveSpeed * Time.deltaTime);
+        rb.velocity = new Vector3(inputDirection.x * moveSpeed * Time.deltaTime, rb.velocity.y, inputDirection.y * moveSpeed * Time.deltaTime);
     }
     private void Flip()
     {

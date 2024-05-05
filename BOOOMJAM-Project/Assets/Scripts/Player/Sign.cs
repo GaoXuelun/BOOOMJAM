@@ -27,6 +27,7 @@ public class Sign : MonoBehaviour
     {
         playerInput.Disable();
         playerInput.Gameplay.Confirm.started -= OnConfirm;
+        pressable = false;
     }
 
     private void Update()

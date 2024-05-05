@@ -1434,7 +1434,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458e1237c4664da4688a71c21ec0c79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionToGo: {x: 0, y: 0, z: 0}
+  loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
+  sceneToGo: {fileID: 11400000, guid: 275762d0e67573b4dad17ed279baf681, type: 2}
+  positionToGo: {x: -8.5, y: 0, z: 0.5}
 --- !u!1001 &723644861
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ public class PlayerMovementController : MonoBehaviour
     [Header("Movement Setting")]
     [SerializeField] private float moveSpeed = 5.0f;
 
-    private Rigidbody rigidbody;
+    private Rigidbody rb;
     //public LayerMask _onGround;
 
     private Animator anim;
@@ -19,7 +19,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
         spriteRender = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();        
     }
@@ -37,7 +37,7 @@ public class PlayerMovementController : MonoBehaviour
         moveInput.x = Input.GetAxis("Horizontal");
         moveInput.z = Input.GetAxis("Vertical");
         moveInput.Normalize();
-        rigidbody.velocity = moveInput * moveSpeed;
+        rb.velocity = moveInput * moveSpeed;
     }
 
     private void Flip()
