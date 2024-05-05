@@ -211,7 +211,7 @@ Transform:
   m_GameObject: {fileID: 976031}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.25, y: 0.02747208, z: 0.39916143}
+  m_LocalPosition: {x: -10.84, y: 0.007326046, z: 0.06977701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1502,7 +1502,7 @@ MonoBehaviour:
   playerTrans: {fileID: 4021528859831242079}
   startPosition: {x: 0, y: 0, z: 0}
   loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
-  firstLoadScene: {fileID: 11400000, guid: 152f20ec32ed305469186ab88934f024, type: 2}
+  firstLoadScene: {fileID: 0}
   afterSceneLoadedEvent: {fileID: 11400000, guid: fb922dc2b8f193a4c97c01ed0a94cdb4,
     type: 2}
   currentLoadedScene: {fileID: 0}
@@ -2858,7 +2858,7 @@ Transform:
   m_GameObject: {fileID: 7962891562698354958}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.25, y: 0.02747208, z: 0.39916143}
+  m_LocalPosition: {x: -10.84, y: 0.007326046, z: 0.06977701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2874,7 +2874,7 @@ Transform:
   m_GameObject: {fileID: 1423731454735176946}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10.59, y: 0, z: -0.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
