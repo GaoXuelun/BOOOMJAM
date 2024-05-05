@@ -14,12 +14,19 @@ public class Sign : MonoBehaviour
     private void Awake()
     {
         anim = signSprite.GetComponent<Animator>();
+        playerInput = new PlayerInputControls();
     }
 
     private void OnEnable()
     {
-        playerInput = new PlayerInputControls();
+        playerInput.Enable();
         playerInput.Gameplay.Confirm.started += OnConfirm;
+    }
+
+    private void OnDisable()
+    {
+        playerInput.Disable();
+        playerInput.Gameplay.Confirm.started -= OnConfirm;
     }
 
     private void Update()
@@ -28,12 +35,12 @@ public class Sign : MonoBehaviour
         //signSprite.SetActive(pressable);
     }
 
-    private void OnConfirm(InputAction.CallbackContext obj)
+    private void OnConfirm(InputAction.CallbackContext obj) // Press keyboard to confirm interact
     {
         if (pressable)  targetItem.TriggerAction(); 
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerStay(Collider other)  // Enter interactable range
     {
         if (other.CompareTag("Interactable"))
         {
@@ -42,7 +49,7 @@ public class Sign : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)  // Out interactable range
     {
         if (other.CompareTag("Interactable"))   pressable = false;
     }

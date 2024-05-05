@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class DoorToNextLevel : MonoBehaviour, InteractableInterface
 {
+    public Vector3 positionToGo;
+    
     void Start()
     {}
     void Update()

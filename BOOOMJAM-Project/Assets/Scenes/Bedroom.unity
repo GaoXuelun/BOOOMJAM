@@ -2907,6 +2907,7 @@ GameObject:
   - component: {fileID: 1342497722}
   - component: {fileID: 1342497723}
   - component: {fileID: 1342497724}
+  - component: {fileID: 1342497725}
   m_Layer: 0
   m_Name: bed_0
   m_TagString: Interactable
@@ -3037,6 +3038,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 5.5, y: 2.5, z: 0.20000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1342497725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342497719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98695878ecd42d14d91bd65764047b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1459178413
 GameObject:
   m_ObjectHideFlags: 0
@@ -4091,6 +4104,7 @@ GameObject:
   - component: {fileID: 2135422588}
   - component: {fileID: 2135422589}
   - component: {fileID: 2135422590}
+  - component: {fileID: 2135422591}
   m_Layer: 0
   m_Name: computer_0
   m_TagString: Interactable
@@ -4221,6 +4235,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3, y: 1.6, z: 1.5}
   m_Center: {x: 0, y: 0.8, z: -0.5}
+--- !u!114 &2135422591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135422585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223a7b2d2d4cceb49863a5b1982d9245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
