@@ -3,7 +3,7 @@ guid: d512a8edacd1b2c46bfdb73eea6cce79
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,9 +126,9 @@ TextureImporter:
       name: left wall_0
       rect:
         serializedVersion: 2
-        x: 215
+        x: 303
         y: 0
-        width: 224
+        width: 136
         height: 144
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -139,6 +139,48 @@ TextureImporter:
       bones: []
       spriteID: 70161fbc7af4289449c3066584bbcaca
       internalID: -223405648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left wall_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 54
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0770ca2d69cc0ff43943f1e715fd7810
+      internalID: -308720504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left wall_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 34
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa2ea04848463644a472d385b780ff1
+      internalID: 666615211
       vertices: []
       indices: 
       edges: []
@@ -155,6 +197,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       left wall_0: -223405648
+      left wall_1: -308720504
+      left wall_2: 666615211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

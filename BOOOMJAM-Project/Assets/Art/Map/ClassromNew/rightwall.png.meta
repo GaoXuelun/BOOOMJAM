@@ -3,7 +3,7 @@ guid: 8e5928b76a4500047bdc1c6efd07ed31
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,7 +128,7 @@ TextureImporter:
         serializedVersion: 2
         x: 226
         y: 0
-        width: 226
+        width: 193
         height: 144
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -139,6 +139,48 @@ TextureImporter:
       bones: []
       spriteID: e54a1a7ca0020694aad02b31513d2c9a
       internalID: 2087435883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightwall_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 20
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783452ce2b13f2a4e81c8017bb8e2455
+      internalID: 964857380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightwall_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 0
+        width: 13
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509f3c102c6f32d4290ad0ef5de6ea40
+      internalID: -403570972
       vertices: []
       indices: 
       edges: []
@@ -155,6 +197,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       rightwall_0: 2087435883
+      rightwall_1: 964857380
+      rightwall_2: -403570972
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
