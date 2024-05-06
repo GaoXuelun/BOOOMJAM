@@ -1502,7 +1502,7 @@ MonoBehaviour:
   playerTrans: {fileID: 4021528859831242079}
   startPosition: {x: 0, y: 0, z: 0}
   loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
-  firstLoadScene: {fileID: 0}
+  firstLoadScene: {fileID: 11400000, guid: 152f20ec32ed305469186ab88934f024, type: 2}
   afterSceneLoadedEvent: {fileID: 11400000, guid: fb922dc2b8f193a4c97c01ed0a94cdb4,
     type: 2}
   currentLoadedScene: {fileID: 0}
@@ -3022,7 +3022,6 @@ MonoBehaviour:
   isGround: 1
   checkRadius: 0.1
   groundLayer:
-    serializedVersion: 2
     m_Bits: 8
 --- !u!1 &7962891562698354958
 GameObject:
