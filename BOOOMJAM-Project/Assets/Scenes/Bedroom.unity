@@ -2577,9 +2577,9 @@ Transform:
   - {fileID: 93592581}
   - {fileID: 785580303}
   - {fileID: 1266827080}
-  - {fileID: 1930905019}
   - {fileID: 715347740}
   - {fileID: 1493366858}
+  - {fileID: 1930905019}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1207276933
