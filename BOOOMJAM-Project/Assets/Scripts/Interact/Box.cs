@@ -1,18 +1,15 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DialogueEditor;   //C‰ü
+using DialogueEditor;   //ä¿®æ”¹
 
-public class Computer : MonoBehaviour, InteractableInterface
+public class Box : MonoBehaviour, InteractableInterface
 {
-    public NPCConversation myConversation; //C‰ü 
+    public NPCConversation myConversation; //ä¿®æ”¹ 
     [SerializeField] private string interactText;
-
     public void TriggerAction()
     {
-        Debug.Log("Computer");
-        ConversationManager.Instance.StartConversation(myConversation);
-
+        Debug.Log("box");
     }
     public string GetInteractText()
     {
