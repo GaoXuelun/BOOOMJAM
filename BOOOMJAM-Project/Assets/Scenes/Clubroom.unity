@@ -4700,8 +4700,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
-  sceneToGo: {fileID: 11400000, guid: 152f20ec32ed305469186ab88934f024, type: 2}
-  positionToGo: {x: 0, y: 0, z: 0}
+  sceneToGo: {fileID: 11400000, guid: 63aa27f7fad95ba4cace0b6e363949c0, type: 2}
+  positionToGo: {x: 7.61, y: 0.116, z: 0.37}
   myConversation: {fileID: 0}
   interactText: 
 --- !u!1 &1453320011

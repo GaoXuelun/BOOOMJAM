@@ -5186,8 +5186,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
-  sceneToGo: {fileID: 11400000, guid: 152f20ec32ed305469186ab88934f024, type: 2}
-  positionToGo: {x: 0, y: 0, z: 0}
+  sceneToGo: {fileID: 11400000, guid: 275762d0e67573b4dad17ed279baf681, type: 2}
+  positionToGo: {x: -8.338404, y: 0.00000059604645, z: 0.36691773}
+  myConversation: {fileID: 0}
+  interactText: 
 --- !u!65 &1207389565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6701,8 +6703,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
-  sceneToGo: {fileID: 11400000, guid: 152f20ec32ed305469186ab88934f024, type: 2}
-  positionToGo: {x: 0, y: 0, z: 0}
+  sceneToGo: {fileID: 11400000, guid: e4bd3d74f14948246ab8c58464ec43c4, type: 2}
+  positionToGo: {x: 17.545341, y: 0.003000021, z: 1.2384188}
+  myConversation: {fileID: 0}
+  interactText: 
 --- !u!65 &1480450070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6897,75 +6901,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1487646737}
   m_LocalEulerAnglesHint: {x: 87.202, y: 180, z: 0}
---- !u!1 &1547723066
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1547723067}
-  - component: {fileID: 1547723069}
-  - component: {fileID: 1547723068}
-  m_Layer: 0
-  m_Name: DoorToClassRoom
-  m_TagString: Interactable
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1547723067
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547723066}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.05, y: 0.14, z: -0.70000005}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1641617702}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1547723068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547723066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 458e1237c4664da4688a71c21ec0c79e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
-  sceneToGo: {fileID: 11400000, guid: 152f20ec32ed305469186ab88934f024, type: 2}
-  positionToGo: {x: 0, y: 0, z: 0}
---- !u!65 &1547723069
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547723066}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 3.4, z: 2}
-  m_Center: {x: 0, y: 1.7, z: 0}
 --- !u!1 &1559768955
 GameObject:
   m_ObjectHideFlags: 0
@@ -7483,7 +7418,6 @@ Transform:
   m_Children:
   - {fileID: 1480450068}
   - {fileID: 1207389563}
-  - {fileID: 1547723067}
   - {fileID: 2066747536}
   m_Father: {fileID: 1654818437}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9031,8 +8965,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
-  sceneToGo: {fileID: 11400000, guid: 152f20ec32ed305469186ab88934f024, type: 2}
-  positionToGo: {x: 0, y: 0, z: 0}
+  sceneToGo: {fileID: 11400000, guid: 39a89e4d3c39067468805db4f6b522d0, type: 2}
+  positionToGo: {x: -0.31, y: 0.116, z: 1.85}
+  myConversation: {fileID: 0}
+  interactText: 
 --- !u!65 &2066747538
 BoxCollider:
   m_ObjectHideFlags: 0
