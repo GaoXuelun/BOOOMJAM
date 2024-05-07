@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea4d702d9c004c24a9ead7c0848d9b4d, type: 3}
-  m_Name: shop
+  m_Name: Shop
   m_EditorClassIdentifier: 
   sceneType: 0
   sceneReference:
