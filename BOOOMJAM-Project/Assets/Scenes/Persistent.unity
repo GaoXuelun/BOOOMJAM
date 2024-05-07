@@ -1619,13 +1619,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTrans: {fileID: 4021528859831242079}
   startPosition: {x: -3.66, y: 0, z: 3.05}
+  menuPosition: {x: 0, y: 0, z: 0}
+  fadeDuration: 0.7
   loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
-  firstLoadScene: {fileID: 11400000, guid: eab959ae27b1a6c4794b7e6715ce9b92, type: 2}
+  newGameEvent: {fileID: 11400000, guid: a494cfea34b0980438d80f68b809b2c5, type: 2}
   afterSceneLoadedEvent: {fileID: 11400000, guid: fb922dc2b8f193a4c97c01ed0a94cdb4,
     type: 2}
-  currentLoadedScene: {fileID: 0}
   fadeEvent: {fileID: 11400000, guid: 54d5b986d877aa144bd65b7e25cfe7fd, type: 2}
-  fadeDuration: 0.7
+  menuScene: {fileID: 11400000, guid: eab959ae27b1a6c4794b7e6715ce9b92, type: 2}
+  firstLoadScene: {fileID: 11400000, guid: 152f20ec32ed305469186ab88934f024, type: 2}
+  currentLoadedScene: {fileID: 0}
 --- !u!4 &1226475558
 Transform:
   m_ObjectHideFlags: 0

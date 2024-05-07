@@ -11,22 +11,26 @@ public class SceneLoad : MonoBehaviour
 {
     public Transform playerTrans;
     public Vector3 startPosition;
+    public Vector3 menuPosition;
+    public float fadeDuration;
 
     [Header("Event Listen")]
     public SceneLoadEventSO loadEventSO;
-    public GameSceneSO firstLoadScene;
-    
+    public VoidEventSO newGameEvent;
+
     [Header("Broadcast")]
     public VoidEventSO afterSceneLoadedEvent;
-    [SerializeField] private GameSceneSO currentLoadedScene;
     public FadeEventSO fadeEvent;
-    public float fadeDuration;
 
-    
+    [Header("Scene")]
+    public GameSceneSO menuScene;
+    public GameSceneSO firstLoadScene;
     private GameSceneSO sceneToLoad;
+    [SerializeField] private GameSceneSO currentLoadedScene;
+
     private Vector3 positionToGo;
-    private bool fadeScreen;
     private bool isLoading;
+    private bool fadeScreen;
 
     private void Awake()
     {
@@ -36,21 +40,23 @@ public class SceneLoad : MonoBehaviour
         // currentLoadedScene.sceneReference.LoadSceneAsync(LoadSceneMode.Additive);
     }
 
+    private void Start()    // renew after main menu
+    {
+        loadEventSO.RaiseLoadRequestEvent(menuScene, menuPosition, true);
+        // NewGame();
+    }
+    
     private void OnEnable()
     {
         loadEventSO.LoadRequestEvent += OnLoadRequestEvent;
+        newGameEvent.OnEventRaised += NewGame;
     }
-
     private void OnDisable()
     {
         loadEventSO.LoadRequestEvent -= OnLoadRequestEvent;
+        newGameEvent.OnEventRaised -= NewGame;
     }
 
-    private void Start()    // renew after main menu
-    {
-        NewGame();
-    }
-    
     private void NewGame()
     {
         sceneToLoad = firstLoadScene;
