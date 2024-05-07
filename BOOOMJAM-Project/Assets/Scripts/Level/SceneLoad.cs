@@ -18,13 +18,15 @@ public class SceneLoad : MonoBehaviour
     
     [Header("Broadcast")]
     public VoidEventSO afterSceneLoadedEvent;
-
     [SerializeField] private GameSceneSO currentLoadedScene;
+    public FadeEventSO fadeEvent;
+    public float fadeDuration;
+
+    
     private GameSceneSO sceneToLoad;
     private Vector3 positionToGo;
     private bool fadeScreen;
     private bool isLoading;
-    public float fadeDuration;
 
     private void Awake()
     {
@@ -71,7 +73,7 @@ public class SceneLoad : MonoBehaviour
     {
         if (fadeScreen)
         {
-
+            fadeEvent.FadeIn(fadeDuration);
         }
         
         yield return new WaitForSeconds(fadeDuration);
@@ -95,7 +97,7 @@ public class SceneLoad : MonoBehaviour
 
         if (fadeScreen)
         {
-
+            fadeEvent.FadeOut(fadeDuration);
         }
         isLoading = false;
         afterSceneLoadedEvent.RaiseEvent();
