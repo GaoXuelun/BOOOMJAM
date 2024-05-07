@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea4d702d9c004c24a9ead7c0848d9b4d, type: 3}
-  m_Name: shop
+  m_Name: stert
   m_EditorClassIdentifier: 
   sceneType: 0
   sceneReference:
-    m_AssetGUID: 61d650b4c2a90354d944b9e8a7449a0c
+    m_AssetGUID: 8b54e5146cbe50f42ba81dd87accc2ce
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
