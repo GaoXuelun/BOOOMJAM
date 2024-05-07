@@ -3168,6 +3168,7 @@ GameObject:
   - component: {fileID: 1342497722}
   - component: {fileID: 1342497724}
   - component: {fileID: 1342497725}
+  - component: {fileID: 1342497726}
   m_Layer: 0
   m_Name: bed_0
   m_TagString: Interactable
@@ -3298,6 +3299,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myConversation: {fileID: 1849024430}
   interactText: bed
+--- !u!114 &1342497726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342497719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb49cc2884c220048a9c379eaa3ee68b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveGameEvent: {fileID: 11400000, guid: 2c1c30eb964b2374b95d7b10f90927c9, type: 2}
+  isDone: 0
+  interactText: 
 --- !u!1 &1440303991
 GameObject:
   m_ObjectHideFlags: 0

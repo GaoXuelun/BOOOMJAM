@@ -21,6 +21,7 @@ public class SceneLoad : MonoBehaviour
     [Header("Broadcast")]
     public VoidEventSO afterSceneLoadedEvent;
     public FadeEventSO fadeEvent;
+    public SceneLoadEventSO unLoadedSceneEvent;
 
     [Header("Scene")]
     public GameSceneSO menuScene;
@@ -81,7 +82,7 @@ public class SceneLoad : MonoBehaviour
         if (fadeScreen) fadeEvent.FadeIn(fadeDuration);
         
         yield return new WaitForSeconds(fadeDuration);
-
+        unLoadedSceneEvent.RaiseLoadRequestEvent(sceneToLoad, positionToGo, true);
         yield return currentLoadedScene.sceneReference.UnLoadScene();
         playerTrans.gameObject.SetActive(false);
         LoadNewScene();
