@@ -47,11 +47,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 99c9720ab356a0642a771bea13969a05
-    m_Address: Assets/Scenes/SampleScene.unity
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 61d650b4c2a90354d944b9e8a7449a0c
     m_Address: Assets/Scenes/Shop.unity
     m_ReadOnly: 0

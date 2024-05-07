@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 305042085}
   - component: {fileID: 305042084}
   - component: {fileID: 305042083}
+  - component: {fileID: 305042086}
   m_Layer: 0
   m_Name: pedestrians2
   m_TagString: Untagged
@@ -298,6 +299,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &305042086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305042082}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.68, y: 2.32, z: 0.3}
+  m_Center: {x: 0, y: 1.16, z: 0}
 --- !u!1 &319122239
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,6 +530,7 @@ GameObject:
   - component: {fileID: 428372495}
   - component: {fileID: 428372494}
   - component: {fileID: 428372493}
+  - component: {fileID: 428372496}
   m_Layer: 0
   m_Name: pedestrians1
   m_TagString: Untagged
@@ -603,6 +626,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &428372496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428372492}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.24, y: 2.08, z: 0.3}
+  m_Center: {x: 0, y: 1.04, z: 0}
 --- !u!1 &525840466
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +2137,7 @@ GameObject:
   - component: {fileID: 1787658641}
   - component: {fileID: 1787658640}
   - component: {fileID: 1787658639}
+  - component: {fileID: 1787658642}
   m_Layer: 0
   m_Name: CafeBoss
   m_TagString: Untagged
@@ -2188,6 +2233,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1787658642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787658638}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.52, y: 2.4, z: 0.3}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!1 &1879641994
 GameObject:
   m_ObjectHideFlags: 0

@@ -3192,6 +3192,7 @@ GameObject:
   - component: {fileID: 905572579}
   - component: {fileID: 905572580}
   - component: {fileID: 905572581}
+  - component: {fileID: 905572582}
   m_Layer: 0
   m_Name: XianYuZhen
   m_TagString: Untagged
@@ -3287,6 +3288,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &905572582
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905572578}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.6, y: 2.32, z: 0.3}
+  m_Center: {x: 0, y: 1.16, z: 0}
 --- !u!1 &922447521
 GameObject:
   m_ObjectHideFlags: 0
@@ -5340,6 +5362,7 @@ GameObject:
   - component: {fileID: 1279562512}
   - component: {fileID: 1279562511}
   - component: {fileID: 1279562513}
+  - component: {fileID: 1279562514}
   m_Layer: 0
   m_Name: ClassMate1
   m_TagString: Untagged
@@ -5435,6 +5458,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1279562514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279562510}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.28, y: 2.16, z: 0.3}
+  m_Center: {x: 0, y: 1.08, z: 0}
 --- !u!1 &1305411845
 GameObject:
   m_ObjectHideFlags: 0
@@ -5934,6 +5978,7 @@ GameObject:
   - component: {fileID: 1403270210}
   - component: {fileID: 1403270211}
   - component: {fileID: 1403270212}
+  - component: {fileID: 1403270213}
   m_Layer: 0
   m_Name: ClassMate2
   m_TagString: Untagged
@@ -6029,6 +6074,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1403270213
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403270209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.68, y: 2.4, z: 0.3}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!1 &1403881549
 GameObject:
   m_ObjectHideFlags: 0
@@ -7292,6 +7358,7 @@ GameObject:
   - component: {fileID: 1618717354}
   - component: {fileID: 1618717355}
   - component: {fileID: 1618717356}
+  - component: {fileID: 1618717357}
   m_Layer: 0
   m_Name: Egggress
   m_TagString: Untagged
@@ -7387,6 +7454,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1618717357
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618717353}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.92, y: 2.32, z: 0.3}
+  m_Center: {x: 0, y: 1.16, z: 0}
 --- !u!1 &1641617701
 GameObject:
   m_ObjectHideFlags: 0

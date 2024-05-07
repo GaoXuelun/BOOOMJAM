@@ -790,6 +790,7 @@ GameObject:
   - component: {fileID: 277144977}
   - component: {fileID: 277144978}
   - component: {fileID: 277144979}
+  - component: {fileID: 277144980}
   m_Layer: 0
   m_Name: "Liang\uFF08\u5E26\u5267\u60C5\u5BF9\u8BDD\uFF09"
   m_TagString: Untagged
@@ -885,6 +886,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &277144980
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277144976}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.52, y: 2.32, z: 0.3}
+  m_Center: {x: 0, y: 1.16, z: 0}
 --- !u!1 &334342869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2690,6 +2712,7 @@ GameObject:
   - component: {fileID: 892451815}
   - component: {fileID: 892451816}
   - component: {fileID: 892451817}
+  - component: {fileID: 892451818}
   m_Layer: 0
   m_Name: GaoXueLun
   m_TagString: Untagged
@@ -2774,7 +2797,7 @@ Animator:
   m_GameObject: {fileID: 892451814}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 15ae6e9818713ed43b55b57fb603b5ef, type: 2}
+  m_Controller: {fileID: 9100000, guid: 340f0ff744ad5db4ca1c041b7c25fbd5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2785,6 +2808,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &892451818
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892451814}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.4, y: 2.32, z: 0.3}
+  m_Center: {x: 0, y: 1.16, z: 0}
 --- !u!1 &969494902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3129,7 +3173,7 @@ Transform:
   m_GameObject: {fileID: 996127612}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.73, y: 0, z: -23.75}
+  m_LocalPosition: {x: -7.73, y: 0, z: -25.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5681,6 +5725,7 @@ GameObject:
   - component: {fileID: 1860608530}
   - component: {fileID: 1860608531}
   - component: {fileID: 1860608532}
+  - component: {fileID: 1860608533}
   m_Layer: 0
   m_Name: egggrass
   m_TagString: Untagged
@@ -5765,7 +5810,7 @@ Animator:
   m_GameObject: {fileID: 1860608529}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c9da89a522a1d2f418b807dc7ddfcbc2, type: 2}
+  m_Controller: {fileID: 9100000, guid: bd27a9c1164c0794ab3c4fc839a4fc69, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5776,6 +5821,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1860608533
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860608529}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.32, y: 2.72, z: 0.3}
+  m_Center: {x: 0, y: 1.36, z: 0}
 --- !u!1 &1888610715
 GameObject:
   m_ObjectHideFlags: 0
