@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour
     public Vector2 inputDirection;
     public float moveSpeed = 200.0f;
 
+    [Header("Event Listen")]
+    public SceneLoadEventSO loadEvent;
+    public VoidEventSO afterSceneLoadedEvent;
 
     private void Awake()
     {
@@ -48,13 +51,25 @@ public class PlayerController : MonoBehaviour
 
     private void OnEnable()
     {
-        inputControl.Gameplay.Enable();
+        inputControl.Enable();
+        loadEvent.LoadRequestEvent += OnLoadEvent;
+        afterSceneLoadedEvent.OnEventRaised += OnAfterSceneLoadedEvent;
     }
     private void OnDisable()
     {
-        inputControl.Gameplay.Disable();
+        inputControl.Disable();
+        loadEvent.LoadRequestEvent -= OnLoadEvent;
+        afterSceneLoadedEvent.OnEventRaised -= OnAfterSceneLoadedEvent;
     }
 
+    private void OnLoadEvent(GameSceneSO locationToLoad, Vector3 posToGo, bool fadeScreen)
+    {
+        inputControl.Gameplay.Disable();
+    }
+    private void OnAfterSceneLoadedEvent()
+    {
+        inputControl.Gameplay.Enable();
+    }
 
     private void Move()
     {

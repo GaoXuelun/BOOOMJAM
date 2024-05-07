@@ -54,7 +54,8 @@ public class SceneLoad : MonoBehaviour
     private void NewGame()
     {
         sceneToLoad = firstLoadScene;
-        OnLoadRequestEvent(sceneToLoad, startPosition, true);
+        // OnLoadRequestEvent(sceneToLoad, startPosition, true);
+        loadEventSO.RaiseLoadRequestEvent(sceneToLoad, startPosition, true);
     }
 
     private void OnLoadRequestEvent(GameSceneSO locationToLoad, Vector3 posToGo, bool fadeScreen)
@@ -71,10 +72,7 @@ public class SceneLoad : MonoBehaviour
 
     private IEnumerator UnLoadPreviousScene()
     {
-        if (fadeScreen)
-        {
-            fadeEvent.FadeIn(fadeDuration);
-        }
+        if (fadeScreen) fadeEvent.FadeIn(fadeDuration);
         
         yield return new WaitForSeconds(fadeDuration);
 
@@ -95,11 +93,9 @@ public class SceneLoad : MonoBehaviour
         playerTrans.position = positionToGo;
         playerTrans.gameObject.SetActive(true);
 
-        if (fadeScreen)
-        {
-            fadeEvent.FadeOut(fadeDuration);
-        }
+        if (fadeScreen) fadeEvent.FadeOut(fadeDuration);
         isLoading = false;
-        afterSceneLoadedEvent.RaiseEvent();
+        
+        if (currentLoadedScene.sceneType == SceneType.Location) afterSceneLoadedEvent.RaiseEvent();
     }
 }
