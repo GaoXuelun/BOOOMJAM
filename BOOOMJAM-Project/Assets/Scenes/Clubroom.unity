@@ -4661,7 +4661,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.62, y: 0, z: -27.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 7.61, y: 0.116, z: 0.37}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1025394524}
@@ -4700,8 +4700,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadEventSO: {fileID: 11400000, guid: 827eb5aa805a6a7448a013dd3287d68c, type: 2}
-  sceneToGo: {fileID: 11400000, guid: 152f20ec32ed305469186ab88934f024, type: 2}
-  positionToGo: {x: 0, y: 0, z: 0}
+  sceneToGo: {fileID: 11400000, guid: 62aa3b109d3f3ba4c9e30783ff70b5ea, type: 2}
+  positionToGo: {x: 7.61, y: 0.116, z: 0.37}
   myConversation: {fileID: 0}
   interactText: 
 --- !u!1 &1453320011
