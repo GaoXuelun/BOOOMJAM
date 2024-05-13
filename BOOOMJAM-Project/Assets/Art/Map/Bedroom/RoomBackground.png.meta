@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e44b5ca6db129634ca8e5d7bfc9b4583
+guid: c705d04e404fb0c4ea13e553a925ce4f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RoomBackground_0
+      name: RoomBackground
       rect:
         serializedVersion: 2
         x: 0
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c732b2c346bec1d4686c9871f584cba1
-      internalID: -1675566999
+      spriteID: 24b4c5e0a8a88b94d8b71df2467a670d
+      internalID: -421673571
       vertices: []
       indices: 
       edges: []
@@ -120,7 +120,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f9c995bb23c56d84783a43a4e46dc6e7
+    spriteID: bfe5e73cc3843a748be36dc473839f38
     internalID: 0
     vertices: []
     indices: 
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RoomBackground_0: -1675566999
+      RoomBackground: -421673571
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

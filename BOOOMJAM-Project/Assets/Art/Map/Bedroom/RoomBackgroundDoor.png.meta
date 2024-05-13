@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e8c6422cd1e35f34796eb82e9682041b
+guid: ba35aa998b5babc469fa70149f0ae3bf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,22 +97,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cabinet_0
+      name: RoomBackgroundDoor
       rect:
         serializedVersion: 2
-        x: 49
-        y: 29
-        width: 65
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 2, y: 3, z: 0, w: 0}
+        x: 3
+        y: 2
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aff290d5f56b8c247baa963a65ecf973
-      internalID: -2124349584
+      spriteID: 2c90a21c6fcaf124a8a43921a275655f
+      internalID: -828554732
       vertices: []
       indices: 
       edges: []
@@ -120,7 +120,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: d17e9c1331b05b64388f299243c88d52
     internalID: 0
     vertices: []
     indices: 
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cabinet_0: -2124349584
+      RoomBackgroundDoor: -828554732
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
